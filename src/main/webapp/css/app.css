@@ -25,6 +25,13 @@ h2 {
 .header {
     background-color: #0b374b;
     padding: 10px;
+    text-align: center;
+}
+
+.header-small {
+    background-color: #0b374b;
+    padding: 10px;
+    text-align: center;
 }
 
 .header-line {
@@ -39,6 +46,11 @@ h2 {
 @media (min-width: 800px) {
     h1 {
         font-size: 32px;
+    }
+
+    .header {
+        text-align: left;
+        background: #0b374b url('/img/ships.png') no-repeat right;
     }
 
     .header-logo {
