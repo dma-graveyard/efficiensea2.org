@@ -1,0 +1,13 @@
+
+<div ng-include="'partials/header-small.html'"></div>
+
+<div class="main-content" ng-controller="PartnerCtrl">
+
+    <h1>EfficienSea 2 Project Participants</h1>
+
+    <div ng-repeat="country in countries" ng-if="c == 'all' || c == country.code">
+        <partners partners="partners" country="{{country.code}}" country-name="{{country.name}}"></partners>
+    </div>
+
+</div>
+
