@@ -105,6 +105,24 @@ h2 {
     }
 }
 
+.feature-about {
+    padding-left: 40px;
+}
+
+.feature-horizon {
+    margin-top: 20px;
+}
+
+.feature-horizon-bg {
+    background-color: #cae8f7;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.feature-participants {
+    margin-top: 10px;
+}
+
 .partner {
     text-align: center;
     margin-bottom: 10px;
@@ -144,5 +162,3 @@ h2 {
     font-size: 12px;
     margin-top: 10px;
 }
-
-

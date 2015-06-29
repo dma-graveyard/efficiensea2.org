@@ -3,49 +3,67 @@
 
 <div class="main-content" ng-controller="HomeCtrl" ng-init="init()">
 
-    <h1>About EfficienSea 2</h1>
-    <p>
-    The overall objective is to co-create and deploy innovative solutions for safer and more efficient waterborne operations.
-    A carefully selected consortium, encompassing excellent technical and human factor competences, equipment,
-    system- and service providers as well as authorities and international organisations, with expert domain and
-    regulatory knowledge and influence. Supported by a High Level User Group the consortium is in an excellent
-    position to maximise the impact of project innovations. With a total of seven specific objectives all interacting
-    within one framework, the project targets the following:
-    </p>
-    <ol>
-        <li>Create and implement a ground-breaking <b>communication framework – the ‘Maritime Cloud’</b> that will
-            enhance information sharing in and around the maritime sector for smarter traffic management, facilitating
-            a comprehensive e-maritime and e-navigation environment, enabling the maritime internet of
-            things.</li>
-        <li>Identify, develop, test and, where possible, standardise and implement <b>e-navigation solutions</b> that will
-            reduce the risk of accidents, especially in dense waterways, as well as increase the efficiency of the
-            transport chain.</li>
-        <li>Develop, test and, where possible, implement <b>e-maritime solutions</b> for <b>automated reporting</b> and <b>efficient
-            port information</b> and, thus, minimise delays and turnaround times as well as administrative burdens.</li>
-        <li>Create and implement navigational support services and a new self-organizing <b>emergency response solution</b>
-            in remote and difficult environments such as the Arctic in order to reduce the risk of loss of life.</li>
-        <li>Develop solutions to <b>monitor emissions</b> with a focus on SOx and conduct validation trials in the Baltic
-            Sea Region.</li>
-        <li>Create innovative and cost-effective solutions with <b>novel communication technology</b> to deal with ships’
-            challenge of getting access to information services at a reasonable price, especially in remote places such
-            as the Arctic.</li>
-        <li><b>Set the technical and governance standard</b> for the above areas, particularly in regards to e-navigation
-            solutions.</li>
-    </ol>
+    <div class="row">
+        <div class="col-sm-7 col-md-8 col-lg-9 feature-about">
+            <h1>About EfficienSea 2</h1>
+            <p>
+                The overall objective is to co-create and deploy innovative solutions for safer and more efficient waterborne operations.
+                A carefully selected consortium, encompassing excellent technical and human factor competences, equipment,
+                system- and service providers as well as authorities and international organisations, with expert domain and
+                regulatory knowledge and influence. Supported by a High Level User Group the consortium is in an excellent
+                position to maximise the impact of project innovations. With a total of seven specific objectives all interacting
+                within one framework, the project targets the following:
+            </p>
+            <ol>
+                <li>Create and implement a ground-breaking <b>communication framework – the ‘Maritime Cloud’</b> that will
+                    enhance information sharing in and around the maritime sector for smarter traffic management, facilitating
+                    a comprehensive e-maritime and e-navigation environment, enabling the maritime internet of
+                    things.</li>
+                <li>Identify, develop, test and, where possible, standardise and implement <b>e-navigation solutions</b> that will
+                    reduce the risk of accidents, especially in dense waterways, as well as increase the efficiency of the
+                    transport chain.</li>
+                <li>Develop, test and, where possible, implement <b>e-maritime solutions</b> for <b>automated reporting</b> and <b>efficient
+                    port information</b> and, thus, minimise delays and turnaround times as well as administrative burdens.</li>
+                <li>Create and implement navigational support services and a new self-organizing <b>emergency response solution</b>
+                    in remote and difficult environments such as the Arctic in order to reduce the risk of loss of life.</li>
+                <li>Develop solutions to <b>monitor emissions</b> with a focus on SOx and conduct validation trials in the Baltic
+                    Sea Region.</li>
+                <li>Create innovative and cost-effective solutions with <b>novel communication technology</b> to deal with ships’
+                    challenge of getting access to information services at a reasonable price, especially in remote places such
+                    as the Arctic.</li>
+                <li><b>Set the technical and governance standard</b> for the above areas, particularly in regards to e-navigation
+                    solutions.</li>
+            </ol>
+        </div>
 
-    <h1>EfficienSea 2 Participants</h1>
+        <div class="col-sm-5 col-md-4 col-lg-3 feature-horizon">
+            <div class="feature-horizon-bg">
+                <h1>Horizon 2020</h1>
+                <p>
+                    <a href="http://ec.europa.eu/programmes/horizon2020/" target="_blank"><img src="/img/eu_flag.png" width="160"></a>
+                </p>
+                <p>
+                    This project has received funding from the European Union’s
+                    <a href="http://ec.europa.eu/programmes/horizon2020/" target="_blank">Horizon 2020</a>
+                    research and innovation programme under grant agreement No 636329
+                </p>
+            </div>
+        </div>
+    </div>
 
-    <p>
-        EfficienSea has 32 partners from countries in the Baltic Sea region and beyond.
-        The partners represent actors in the region that are driving forces when maritime management tools and
-        safety measures are initiated, developed, tested and implemented. See <a href="/#/partners/all">all partners.</a>
-    </p>
+    <div class="feature-participants">
+        <h1>EfficienSea 2 Participants</h1>
 
-
-    <div class="container">
-        <div class="row">
-            <div ng-repeat="p in partners" class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                <a href="{{p.www}}" target="_blank"><img ng-src="{{p.logo}}" title="{{p.name}}" width="150" height="80"/></a>
+        <p>
+            EfficienSea has 32 partners from countries in the Baltic Sea region and beyond.
+            The partners represent actors in the region that are driving forces when maritime management tools and
+            safety measures are initiated, developed, tested and implemented. See <a href="/#/partners/all">all partners.</a>
+        </p>
+        <div class="container">
+            <div class="row">
+                <div ng-repeat="p in partners" class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                    <a href="{{p.www}}" target="_blank"><img ng-src="{{p.logo}}" title="{{p.name}}" width="150" height="80"/></a>
+                </div>
             </div>
         </div>
     </div>
