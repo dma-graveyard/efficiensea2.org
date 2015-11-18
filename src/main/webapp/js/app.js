@@ -15,6 +15,8 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'partials/partners.html'
     }).when('/qa', {
         templateUrl: 'partials/qa.html'
+    }).when('/publications', {
+        templateUrl: 'partials/publications.html'
     }).when('/contact', {
         templateUrl: 'partials/contact.html'
     }).otherwise({

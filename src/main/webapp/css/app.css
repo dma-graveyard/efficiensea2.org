@@ -162,3 +162,28 @@ h2 {
     font-size: 12px;
     margin-top: 10px;
 }
+
+.pub {
+    padding: 10px;
+}
+
+.pub-files {
+    text-align: center;
+}
+
+.pub-file {
+    display: inline-block;
+    padding: 10px;
+}
+
+.pub-file-img {
+    display: inline-block;
+}
+
+.pub-file-img img {
+    width: 48px;
+}
+
+.pub-file-label {
+    font-size: 9px;
+}
