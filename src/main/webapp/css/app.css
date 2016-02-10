@@ -187,3 +187,29 @@ h2 {
 .pub-file-label {
     font-size: 9px;
 }
+
+.event-data {
+    font-weight:normal;
+}
+
+.event-registration {
+    padding-top: 5px;
+}
+
+.event-details {
+    padding: 30px 0 0 0;
+}
+
+.icon {
+    color: #999;
+}
+
+.contact-panel {
+    padding: 20px 20px 0 20px;
+}
+
+.linkedin-icon {
+    font-size: 32px;
+    color: gray;
+    /* color: #1b86bd */
+}
